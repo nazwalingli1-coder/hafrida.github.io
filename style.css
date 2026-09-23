@@ -1,0 +1,747 @@
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #4f3b43;
+
+  background-color: #fff8fb;
+}
+
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+.navbar-pink {
+  background-color: #e8a5c0 !important;
+}
+
+.navbar-pink .navbar-brand {
+  color: #ffffff !important;
+
+  font-size: 22px;
+
+  letter-spacing: 1px;
+}
+
+.navbar-pink .nav-link {
+  color: #ffffff !important;
+
+  margin-left: 8px;
+  margin-right: 8px;
+
+  font-weight: 500;
+
+  transition: 0.3s ease;
+}
+
+.navbar-pink .nav-link:hover {
+  color: #fff1f6 !important;
+
+  transform: translateY(-2px);
+}
+
+.navbar-pink .nav-link.active {
+  color: #ffffff !important;
+
+  font-weight: 700;
+}
+
+
+/* =====================================================
+   HOME
+===================================================== */
+
+.hero-section {
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding-top: 110px;
+
+  padding-bottom: 90px;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      #ffe5ef 0%,
+      #fff4f8 42%,
+      #fff9fb 100%
+    );
+}
+
+
+.hero-content {
+  max-width: 900px;
+
+  margin: auto;
+}
+
+
+/* FOTO PROFILE */
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 7px solid #ffffff;
+
+  box-shadow:
+    0 10px 30px rgba(190, 112, 145, 0.20);
+
+  margin-bottom: 25px;
+
+  transition: 0.4s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.04);
+}
+
+
+/* NAMA */
+
+.hero-section h1 {
+  color: #573f48;
+
+  font-size: clamp(38px, 6vw, 65px);
+
+  font-weight: 700;
+
+  margin-bottom: 15px;
+}
+
+
+/* SUBTITLE */
+
+.hero-subtitle {
+  color: #9a6b7d;
+
+  font-size: 20px;
+
+  margin-bottom: 25px;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.btn-pink {
+  display: inline-block;
+
+  background-color: #e8a5c0;
+
+  border: none;
+
+  color: #ffffff;
+
+  padding: 12px 24px;
+
+  border-radius: 30px;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #d98eae;
+
+  color: #ffffff;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 20px rgba(201, 111, 148, 0.25);
+}
+
+
+/* =====================================================
+   SECTION TITLE
+===================================================== */
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+.section-label {
+  color: #d77f9f;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 8px;
+}
+
+.section-title h2 {
+  color: #573f48;
+
+  font-size: 38px;
+
+  font-weight: 700;
+
+  margin-bottom: 10px;
+}
+
+.section-description {
+  color: #94717f;
+
+  margin-bottom: 0;
+}
+
+
+/* =====================================================
+   ABOUT
+===================================================== */
+
+.about-section {
+  padding-top: 100px;
+
+  padding-bottom: 100px;
+
+  background-color: #fff8fb;
+}
+
+
+.about-card {
+  background-color: #ffffff;
+
+  border: 1px solid #f4dce6;
+
+  border-radius: 22px;
+
+  padding: 35px;
+
+  box-shadow:
+    0 8px 25px rgba(177, 108, 137, 0.08);
+
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 14px 30px rgba(177, 108, 137, 0.13);
+}
+
+
+.about-icon {
+  width: 55px;
+  height: 55px;
+
+  border-radius: 16px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background-color: #fde8f0;
+
+  color: #d77f9f;
+
+  font-size: 25px;
+
+  margin-bottom: 20px;
+}
+
+
+.about-card h4 {
+  color: #573f48;
+
+  font-weight: 700;
+
+  margin-bottom: 18px;
+}
+
+
+.about-card p {
+  color: #6e5961;
+
+  line-height: 1.8;
+
+  font-size: 15px;
+}
+
+
+/* =====================================================
+   PROJECT SECTION
+===================================================== */
+
+.project-section {
+  padding-top: 100px;
+
+  padding-bottom: 100px;
+
+  background-color: #fff0f5;
+}
+
+
+/* =====================================================
+   PROJECT CARD
+===================================================== */
+
+.project-card {
+  background-color: #ffffff;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  border: 1px solid #f2d8e2;
+
+  box-shadow:
+    0 8px 25px rgba(177, 108, 137, 0.09);
+
+  transition: 0.35s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-7px);
+
+  box-shadow:
+    0 15px 35px rgba(177, 108, 137, 0.16);
+}
+
+
+/* =====================================================
+   FOTO PROJECT
+===================================================== */
+
+/*
+   BAGIAN INI YANG DIPERBAIKI.
+
+   Foto dibuat besar dan rapi.
+   Foto TIDAK dipotong.
+*/
+
+.project-image-box {
+  width: 100%;
+
+  min-height: 480px;
+
+  padding: 15px;
+
+  background-color: #fff9fb;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/*
+   Foto asli tetap utuh.
+*/
+
+.project-image {
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  max-width: 100%;
+
+  max-height: 480px;
+
+  object-fit: contain;
+
+  object-position: center;
+
+  border-radius: 10px;
+}
+
+
+/* =====================================================
+   PROJECT BODY
+===================================================== */
+
+.project-body {
+  padding: 28px;
+}
+
+.project-body h4 {
+  color: #573f48;
+
+  font-weight: 700;
+
+  margin-top: 12px;
+
+  margin-bottom: 12px;
+}
+
+.project-body p {
+  color: #6e5961;
+
+  line-height: 1.7;
+
+  font-size: 15px;
+
+  margin-bottom: 0;
+}
+
+
+/* =====================================================
+   BADGE
+===================================================== */
+
+.project-badge {
+  display: inline-block;
+
+  padding: 6px 13px;
+
+  border-radius: 30px;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.game-red {
+  background-color: #fde1e7;
+
+  color: #d95f7d;
+}
+
+.game-blue {
+  background-color: #e4edff;
+
+  color: #5e7ebd;
+}
+
+.food-yellow {
+  background-color: #fff0c9;
+
+  color: #a47a20;
+}
+
+
+/* =====================================================
+   CONTACT
+===================================================== */
+
+.contact-section {
+  padding-top: 100px;
+
+  padding-bottom: 100px;
+
+  background-color: #fff8fb;
+}
+
+
+.contact-card {
+  background-color: #ffffff;
+
+  border: 1px solid #f4dce6;
+
+  border-radius: 22px;
+
+  padding: 40px 30px;
+
+  box-shadow:
+    0 8px 25px rgba(177, 108, 137, 0.08);
+
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 15px 30px rgba(177, 108, 137, 0.14);
+}
+
+
+/* ICON CONTACT */
+
+.contact-icon {
+  width: 80px;
+  height: 80px;
+
+  margin: 0 auto 20px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 38px;
+}
+
+
+.whatsapp-icon {
+  background-color: #e6f8ed;
+
+  color: #25d366;
+}
+
+
+.instagram-icon {
+  background-color: #fce5ef;
+
+  color: #e1306c;
+}
+
+
+.contact-card h4 {
+  color: #573f48;
+
+  font-weight: 700;
+
+  margin-bottom: 8px;
+}
+
+
+.contact-card p {
+  color: #8a6a76;
+
+  font-size: 17px;
+
+  margin-bottom: 25px;
+}
+
+
+/* =====================================================
+   CONTACT BUTTON
+===================================================== */
+
+.contact-button {
+  display: inline-block;
+
+  text-decoration: none;
+
+  padding: 11px 22px;
+
+  border-radius: 30px;
+
+  color: #ffffff;
+
+  font-weight: 600;
+
+  transition: 0.3s ease;
+}
+
+.contact-button:hover {
+  color: #ffffff;
+
+  transform: translateY(-3px);
+}
+
+
+.whatsapp-button {
+  background-color: #25d366;
+}
+
+.whatsapp-button:hover {
+  background-color: #1fbd5b;
+
+  box-shadow:
+    0 8px 20px rgba(37, 211, 102, 0.20);
+}
+
+
+.instagram-button {
+  background-color: #e1306c;
+}
+
+.instagram-button:hover {
+  background-color: #c9255d;
+
+  box-shadow:
+    0 8px 20px rgba(225, 48, 108, 0.20);
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer {
+  padding-top: 30px;
+
+  padding-bottom: 30px;
+
+  background-color: #e8a5c0;
+
+  color: #ffffff;
+}
+
+footer p {
+  margin-bottom: 5px;
+
+  font-size: 14px;
+}
+
+footer small {
+  opacity: 0.9;
+}
+
+footer span {
+  color: #ffffff;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 991px) {
+
+  .navbar-pink .nav-link {
+    margin-top: 4px;
+
+    margin-bottom: 4px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .hero-section {
+    min-height: auto;
+
+    padding-top: 130px;
+
+    padding-bottom: 90px;
+  }
+
+
+  .profile-photo {
+    width: 175px;
+
+    height: 175px;
+  }
+
+
+  .hero-section h1 {
+    font-size: 40px;
+  }
+
+
+  .hero-subtitle {
+    font-size: 17px;
+  }
+
+
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+
+  .about-section,
+  .project-section,
+  .contact-section {
+    padding-top: 75px;
+
+    padding-bottom: 75px;
+  }
+
+
+  /*
+     HP:
+     foto tetap besar,
+     tetapi tidak dipotong.
+  */
+
+  .project-image-box {
+    min-height: 420px;
+
+    padding: 12px;
+  }
+
+
+  .project-image {
+    max-height: 420px;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+
+  .hero-section h1 {
+    font-size: 32px;
+  }
+
+
+  .profile-photo {
+    width: 155px;
+
+    height: 155px;
+  }
+
+
+  .section-title h2 {
+    font-size: 29px;
+  }
+
+
+  .about-card {
+    padding: 28px 22px;
+  }
+
+
+  /*
+     Foto di HP tetap panjang.
+  */
+
+  .project-image-box {
+    min-height: 380px;
+
+    padding: 10px;
+  }
+
+
+  .project-image {
+    max-height: 380px;
+  }
+
+
+  .project-body {
+    padding: 24px 22px;
+  }
+
+
+  .contact-card {
+    padding: 32px 20px;
+  }
+
+}
